@@ -9,4 +9,4 @@ live_bot = dict(live = False,                   # Make the bot run on an infinit
                 threading = True,               # Multithreading boolean. Makes the Bot faster when set to True.
                 telegram_token = '',            # Telegram token of the Bot created with BotFather
                 telegram_chat_id = [''],        # Telegram channel id
-                discord_web_hook = ['https://discord.com/api/webhooks/931166337894608966/FKjTHP_J40vov008ZwsEeV6D2OtKO4zOCWDAeJ7Kz9NYxHQFZC6KKVFybwKxdO0oKZAI'])        # Discord server webhook
+                discord_web_hook = ['https://discord.com/api/webhooks/931306752073433098/ODI0G9JBeQv0aFNEoJyb7TZ-tOijmw5sviNs60GWn12L6zsDfarq1YW6CZBidjcCZMhf'])        # Discord server webhook
