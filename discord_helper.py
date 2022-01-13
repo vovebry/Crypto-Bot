@@ -89,6 +89,9 @@ class discordWebhook:
         return json.dumps(data, indent=4)
 
     def broadcast_message(self, message):
+        self.msg = message
+        for url in self.urls:
+            self.post(url)
         cl = 2000 # Limit of character for a webhook discord message
         print(len(message))
         for i in range(int(len(message)/cl)+1):
