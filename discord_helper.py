@@ -105,7 +105,7 @@ class discordWebhook:
         """
         Send the JSON formated object to the specified `self.url`.
         """
-        if url is not None and url != 'https://discord.com/api/webhooks/931166337894608966/FKjTHP_J40vov008ZwsEeV6D2OtKO4zOCWDAeJ7Kz9NYxHQFZC6KKVFybwKxdO0oKZAI':
+        if url is not None and url != '':
             headers = {'Content-Type': 'application/json'}
             result = requests.post(url, data=self.json, headers=headers)
 
